@@ -3,11 +3,14 @@
 The queen stand on d1. Find the sequance of steps which have maximum of passed fields and no one of field is passed more then one time.
 ## Solution
 ### Chess table representation
-![](https://raw.githubusercontent.com/BOPOHOB/Chess-analyse/master/img/table.png)
+
+| Fields numeration |  queen motions |
+|---|---|
+| ![](https://raw.githubusercontent.com/BOPOHOB/Chess-analyse/master/img/table.png) | ![](https://raw.githubusercontent.com/BOPOHOB/Chess-analyse/master/img/dest.png) |
 
 To have a way to describe the steps we set the number to each field. It's usefull to have invalid values between each row to have simple way to detect attempting to leave from chess field
 
-![](https://raw.githubusercontent.com/BOPOHOB/Chess-analyse/master/img/dest.png)
+
 
 To describe queen step we only need to add correspond value to it position
 
